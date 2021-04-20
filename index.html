@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Tama</title>
+</head>
+<body>
+	<div id="tamagotchi">
+		<img id="tama" alt="Tama" src="https://raw.githubusercontent.com/aliceokodomo/tama/main/alivedog.png" class="resize">
+		<img id="play" alt="Ballon" src="https://raw.githubusercontent.com/aliceokodomo/tama/main/ball-01.png" class="resize">
+	</div>
+	<form id="controls">
+	<input placeholder = "HUNGER:" > <span id="hunger">0</span>
+	<input placeholder = "THIRST :"> <span id="thirst">0</span>
+	<input placeholder = "SICKNESS :"> <span id="sickness">0</span>
+	<input placeholder = "HAPPINESS :"> <span id="happiness">100</span>
+	</form>
+	<form id = "game">
+			<div><input type="number" id="food" value="0"/>
+			<button type = "button" class="pure-button pure-button-primary" id="go">Feed me !</button>
+			<img id = "foodBowl" src="https://raw.githubusercontent.com/aliceokodomo/tama/main/foodbowlfull.png" alt="Bol de nourriture"></div>
+			<div><input type="number" id="water" value="0"/>
+			<button type = "button" class="pure-button pure-button-primary" id="goWater">Water, please !</button>
+			<img id = "waterBowl"src="https://raw.githubusercontent.com/aliceokodomo/tama/main/fullwater.png" alt = "Bol d'eau"></div>
+	</form>
+<form>
+	<input type="number" id="pills" value="0"/>
+	<button type = "button" class="pure-button pure-button-primary" id="goPills">Make me feel better !</button>
+	<img id = "pill" src="https://raw.githubusercontent.com/aliceokodomo/tama/main/pill.png" alt = "pillule">
+</form>
+<script src="main.js"></script>
+</body>
+</html>
